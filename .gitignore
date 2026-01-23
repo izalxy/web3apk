@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+users.json
+
+# Temporary build files
+temp/
+output/
+*.apk
+
+# Android build artifacts
+android-template/.gradle/
+android-template/app/build/
+android-template/build/
+android-template/local.properties
+
+# Keystore (sensitive)
+*.keystore
+*.jks
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
